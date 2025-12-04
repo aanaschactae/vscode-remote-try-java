@@ -1,0 +1,18 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true,
+    "cSpell.words": [
+        "Função",
+        "igual",
+        "Laço",
+        "limpar",
+        "linhas",
+        "pulando",
+        "repetição",
+        "vezes"
+    ]
+}
