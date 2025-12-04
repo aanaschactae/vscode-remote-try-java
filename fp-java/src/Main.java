@@ -39,7 +39,7 @@ public class Main {
         clearConsoleByJumpingLines(); // Chama a função que "limpa" o console
         msgInicial(); // Chama a função que mostra a mensagem inicial
         
-        while (!tipo.equals("U$")){ // Laço de repetição que solicita novamente a entrada até que o valor corresponda a U$ ou R$
+        while (!tipo.equals("U$") && !tipo.equals("R$")){ // Laço de repetição que solicita novamente a entrada até que o valor corresponda a U$ ou R$
         inputSolicitada(); // Imprime os tipos de entrada solicitados; 
         tipo = input.next(); // Lê o tipo de conversor solicitado
         }
